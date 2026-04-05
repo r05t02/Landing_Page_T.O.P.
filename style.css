@@ -21,10 +21,13 @@
     background:#1F2937;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     
 }
 
+.left{
+    margin-left: -30px;
+}
 
 img{
     height: 190px;
