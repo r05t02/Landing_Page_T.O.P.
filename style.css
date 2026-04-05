@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section {
+  width: 100%;
+}
+
+.one{
+    height: 130;
+    background: #1f2937;
+    color:#ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.two{
+    height: 280px;
+    background:#1F2937;
+    
+}
+
+
+img{
+    height: 190px;
+    width: 320px;
+}
+
+.two > .main_text, .two > .sec_text{
+    color: white;
+}
+
+.three{
+    height:300px ;
+    background:#ffffff ;
+}
+
+.four{
+    height: 300px;
+    background: rgb(230, 224, 224);
+}
+
+.five{
+    height: 60px;
+    background: #1f2937;
+}
+
+
+
+.one .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.one .container a {
+  margin-left: 20px;   /* gap between the three links */
+}
+
+.links{
+    color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    font-weight: lighter;
+}
+
+ .links > a{
+    margin: 10px;
+    font-size: 18px;
+    color: #E5E7EB;
+} 
+
+
+div.logo{
+    font-size: 24px;
+    color: #F9faf8;
+}
+.logo{
+    font-weight: bold;
+}
+
+
+.five{
+    color:#ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: lighter;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+/* --------------------------------------- */
+
+/* background: #3b82f6; -----> button / call to action color */
